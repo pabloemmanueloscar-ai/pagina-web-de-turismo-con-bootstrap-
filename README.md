@@ -1,29 +1,40 @@
 # Turismo Mendoza Z
 
-Sitio web promocional para una empresa de turismo en Mendoza, Argentina. Presenta sus servicios, destinos y equipo de trabajo.
+Sitio web de presentación para Turismo Mendoza Z, una empresa de turismo en Mendoza, Argentina. La página informa sobre sus servicios, muestra destinos turísticos y presenta al equipo.
 
-## Contenido
+## Vista general
 
-- Barra de navegación responsive con menú colapsable.
-- Presentación de la empresa con títulos centrados y diseño adaptable.
-- Carrusel de destinos con controles e indicadores.
-- Tarjetas para destinos turísticos.
-- Sección de presentación del equipo con fotografías.
-- Footer con avatar y aviso de derechos reservados.
+- Navegación responsive con menú colapsable de Bootstrap.
+- Presentación de la empresa y servicios: alojamiento, traslados y guías locales.
+- Carrusel Bootstrap con imágenes, indicadores y controles de navegación.
+- Tarjetas de destinos con imágenes y descripciones.
+- Sección del equipo con perfiles de Daniela, Javier y Gastón.
+- Video de presentación de Turismo Mendoza Z en lugar del logo estático; inicia automáticamente en silencio.
+- Pie de página con avatar y aviso de derechos reservados.
+- Diseño adaptable a teléfonos, tablets y computadoras.
+
+## Nuestro equipo
+
+| Daniela · Atención y Reservas | Javier · Guía de Aventura | Gastón · Transporte y Logística |
+|:---:|:---:|:---:|
+| ![Avatar de Daniela](imagenes/avatar/daniela.jpg) | ![Avatar de Javier](imagenes/avatar/javier.jpg) | ![Avatar de Gastón](imagenes/avatar/gaston.jpg) |
+
+## Destinos destacados
+
+| Destino | Imagen |
+|---|---|
+| Cañón del Atuel | `imagenes/carrusel/carrusel1.png` |
+| Cataratas del Iguazú | `imagenes/carrusel/carrusel2.png` |
+| Catedral de la Constancia | `imagenes/carrusel/carrusel3.png` |
+| Egipto | Tarjeta con imagen local |
 
 ## Tecnologías
 
 - HTML5 semántico (`header`, `section`, `article` y `footer`).
-- Bootstrap 5.3.8 para la navegación, el carrusel, las tarjetas, la grilla y las utilidades visuales.
-- CSS propio en `style.css` para colores de marca, tipografía y ajustes del diseño.
+- Bootstrap 5.3.8, CSS y JavaScript Bundle servidos desde jsDelivr.
+- CSS propio para el tema, la presentación, las imágenes y los ajustes responsive.
 
-Bootstrap se carga desde jsDelivr, por lo que se necesita conexión a Internet para ver todos los estilos y usar los componentes interactivos.
-
-## Nuestro equipo
-
-| Daniela — Atención y Reservas | Javier — Guía de Aventura | Gastón — Transporte y Logística |
-|:---:|:---:|:---:|
-| ![Avatar de Daniela](imagenes/avatar/daniela.jpg) | ![Avatar de Javier](imagenes/avatar/javier.jpg) | ![Avatar de Gastón](imagenes/avatar/gaston.jpg) |
+Se requiere conexión a Internet para cargar Bootstrap desde el CDN.
 
 ## Estructura del proyecto
 
@@ -31,39 +42,32 @@ Bootstrap se carga desde jsDelivr, por lo que se necesita conexión a Internet p
 .
 ├── index.html
 ├── style.css
+├── video logo/
+│   └── video mendoza turismo z.mp4
 └── imagenes/
-    ├── logo.png
-    ├── imagen 1.jpg
-    ├── imagen 2.jpg
-    ├── imagen 3.jpg
-    ├── imagen 4.jpg
+    ├── logo/
+    │   └── logo.jpg (logo estático alternativo)
     ├── avatar/
     │   ├── avatar.jpg
     │   ├── daniela.jpg
     │   ├── gaston.jpg
     │   └── javier.jpg
-    └── carrusel/
-        ├── carrusel1.png
-        ├── carrusel2.png
-        └── carrusel3.png
+    ├── carrusel/
+    │   ├── carrusel1.png
+    │   ├── carrusel2.png
+    │   └── carrusel3.png
+    └── tarjetas/
+        ├── imagen 1.jpg
+        ├── imagen 2.jpg
+        ├── imagen 3.jpg
+        └── imagen 4.jpg
 ```
-
-## Diseño adaptable
-
-La página utiliza la grilla responsive de Bootstrap: las tarjetas de destinos se muestran en una columna en pantallas pequeñas, dos columnas en tablet y hasta cuatro en pantallas grandes. El menú de navegación también se adapta a dispositivos móviles.
 
 ## Cómo ejecutar
 
-1. Descarga o clona el proyecto.
-2. Abre `index.html` en un navegador.
+1. Descarga o clona este repositorio.
+2. Abre `index.html` en un navegador web.
 3. Mantén conexión a Internet para cargar Bootstrap desde jsDelivr.
-
-## Destinos destacados
-
-- Cañón del Atuel
-- Cataratas del Iguazú
-- Catedral de la Constancia
-- Egipto
 
 ## Autor
 
