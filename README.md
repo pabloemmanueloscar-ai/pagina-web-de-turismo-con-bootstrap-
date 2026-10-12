@@ -9,7 +9,7 @@ Sitio web de presentación para Turismo Mendoza Z, una empresa de turismo en Men
 - Carrusel Bootstrap con imágenes, indicadores y controles de navegación.
 - Tarjetas de destinos con imágenes y descripciones.
 - Sección del equipo con perfiles de Daniela, Javier y Gastón.
-- Video de presentación de Turismo Mendoza Z en lugar del logo estático; inicia automáticamente en silencio.
+- Video de presentación con audio y controles manuales para reproducir y pausar; el navegador puede exigir interacción para permitir el inicio automático con sonido.
 - Pie de página con avatar y aviso de derechos reservados.
 - Diseño adaptable a teléfonos, tablets y computadoras.
 
